@@ -135,6 +135,7 @@ pub use crate::{
         LogLevel, LruCacheOptions, MemtableFactory, Options, PlainTableFactoryOptions,
         RateLimiterMode, ReadOptions, ReadTier, UniversalCompactOptions,
         UniversalCompactionStopStyle, WaitForCompactOptions, WriteOptions,
+        PrepopulateBlockCache, 
     },
     db_pinnable_slice::DBPinnableSlice,
     env::Env,
